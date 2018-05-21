@@ -15,8 +15,27 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
+        <activity android:name=".Accelerometre"
+            android:label="Change Background color with Accelerometer"
+            android:theme="@style/AppTheme"/>
+
+        <activity android:name=".AllumeFlash"
+            android:label="switchoff/on the flash"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".CapteurProximite"
+            android:label="Change Image"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".CapteursAbsents"
+            android:label="Sensors not supported"
+            android:theme="@style/AppTheme"/>
+        <activity android:name="fr.ives.dev.lotonga.e.tp1_android.Direction"
+            android:label="The Direction of the device"
+            android:theme="@style/AppTheme"/>
+
+        <activity android:name=".ListeCapteurs"
+            android:label="All sensors supported"
+            android:theme="@style/AppTheme"/>
     </application>
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.hardware.camera"/>
